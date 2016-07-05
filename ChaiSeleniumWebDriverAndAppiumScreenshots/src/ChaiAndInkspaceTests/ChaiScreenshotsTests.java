@@ -21,7 +21,7 @@ public class ChaiScreenshotsTests extends TestBaseClass {
 	//@Test(priority=1)
   public void ChaiDesktopScreenshots() throws Exception 
   {
-		System.out.println("zzz");
+		System.out.println("www");
 		ChaiOrInkspacePage.InkspacePage().ClickOnLoginButton();
 		ChaiOrInkspacePage.InkspaceLoginPage().LoginIntoInkspaceWithValidCredentialsAsOrganizer();
 		ChaiOrInkspacePage.InkspaceHomePage().InkspaceBetaWindowClickOnToSureIllJoinOption();
