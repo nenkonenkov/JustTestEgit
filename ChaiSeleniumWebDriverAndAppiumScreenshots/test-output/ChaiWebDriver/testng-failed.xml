@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ChaiWebDriver]">
+  <test name="ChaiWebDriver(failed)">
+    <classes>
+      <class name="ChaiSeleniumWebDriverTest.NewTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="CopyCutDeleteOptionsScreenshots"/>
+        </methods>
+      </class> <!-- ChaiSeleniumWebDriverTest.NewTest -->
+    </classes>
+  </test> <!-- ChaiWebDriver(failed) -->
+</suite> <!-- Failed suite [ChaiWebDriver] -->

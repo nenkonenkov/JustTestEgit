@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InkspaceAndroidScreenshots]">
+  <parameter name="DriverName" value="AndroidInkspace"/>
+  <test name="InkspaceAndroidScreenshots(failed)">
+    <parameter name="DriverName" value="AndroidInkspace"/>
+    <classes>
+      <class name="ChaiAndInkspaceTests.InkspaceScreenshotsTests">
+        <methods>
+          <include name="InkspaceTests"/>
+        </methods>
+      </class> <!-- ChaiAndInkspaceTests.InkspaceScreenshotsTests -->
+    </classes>
+  </test> <!-- InkspaceAndroidScreenshots(failed) -->
+</suite> <!-- Failed suite [InkspaceAndroidScreenshots] -->
